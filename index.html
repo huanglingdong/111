@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -67,7 +67,7 @@ var turnplate={
 
 $(document).ready(function(){
 	//动态添加大转盘的奖品与奖品区域背景颜色
-	turnplate.restaraunts = ["红军喝一杯", "蒋松喝两杯", "小黄喝三杯", "曾建喝一瓶", "红军看到曾建喝", "看到曾建喝", "还是曾建喝 ", "喝喝喝"];
+	turnplate.restaraunts = ["德芙巧克力", "下次再来", "黑人牙膏", "有友凤爪", "扣假一天", "玉溪", "红牛 ", "香皂"];
 	turnplate.colors = ["#FFFFFF","#5fcbd5", "#FFFFFF", "#5fcbd5", "#FFFFFF","#5fcbd5", "#FFFFFF", "#5fcbd5" ];
 
 	
@@ -232,42 +232,42 @@ function drawRouletteWheel() {
 			  img.onload=function(){  
 				  ctx.drawImage(img,-35,20);      
 			  };  
-			  ctx.drawImage(img,-15,20);  
+			  ctx.drawImage(img,-45,10);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[1])>=0){
 			  var img= document.getElementById("diy2-img");
 			  img.onload=function(){  
 				  ctx.drawImage(img,-35,20);      
 			  }; 
-			  ctx.drawImage(img,-15,20);  
+			  ctx.drawImage(img,-25,20);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[2])>=0){
 			  var img= document.getElementById("diy3-img");			
 			  img.onload=function(){  
 				  ctx.drawImage(img,-25,35);      
 			  };  
-			  ctx.drawImage(img,-30,35);  
+			  ctx.drawImage(img,-30,10);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[3])>=0){
 			  var img= document.getElementById("diy4-img");
 			  img.onload=function(){  
 				  ctx.drawImage(img,-35,20);      
 			  };  
-			  ctx.drawImage(img,-35,20);  
+			  ctx.drawImage(img,-45,1);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[4])>=0){
 			  var img= document.getElementById("diy5-img");
 			  img.onload=function(){  
 				  ctx.drawImage(img,-30,20);      
 			  };  
-			  ctx.drawImage(img,-30,20);  
+			  ctx.drawImage(img,-45,5);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[5])>=0){
 			  var img= document.getElementById("diy6-img");
 			  img.onload=function(){  
 				  ctx.drawImage(img,-35,20);      
 			  };  
-			  ctx.drawImage(img,-35,20);  
+			  ctx.drawImage(img,-30,20);  
 		  };
 		  if(text.indexOf(turnplate.restaraunts[6])>=0){
 			  var img= document.getElementById("diy7-img");			  
@@ -282,7 +282,7 @@ function drawRouletteWheel() {
 			  img.onload=function(){  
 				  ctx.drawImage(img,-35,20);      
 			  };  
-			  ctx.drawImage(img,-35,20);  
+			  ctx.drawImage(img,-45,-10);  
 		  };
 		  
 		  
